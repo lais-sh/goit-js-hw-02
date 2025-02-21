@@ -1,5 +1,4 @@
-
-  function formatMessage(message, maxLength) {
+ function formatMessage(message, maxLength) {
     return message.length <= maxLength ? message : message.slice(0, maxLength) + "...";
   }
   
@@ -9,5 +8,3 @@
   console.log(formatMessage("Vestibulum facilisis purus nec", 30));
   console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
   console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41));
-  
-  
